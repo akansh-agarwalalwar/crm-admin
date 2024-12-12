@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import Navigation from "./Navigation";
 
 function App() {
-
   return (
-    <>
-    
-    </>
-  )
+    <div>
+      <Navigation />
+    </div>
+  );
 }
 
-export default App
+export default App;
